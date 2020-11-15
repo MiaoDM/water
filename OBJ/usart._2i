@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\FWLIB\STM32F4xx_StdPeriph_Driver\inc -I..\USER -I..\FWLIB\inc -I..\HARDWARE\BC28 -I..\HARDWARE\TIME -I..\HARDWARE\LCD -I..\HARDWARE\COMMON -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\STRHEX -I..\HARDWARE\ADC -I..\HARDWARE\DS18B20 -I..\HARDWARE\GPS -I..\SYSTEM\usart -I..\HARDWARE\HC05
+-I F:\研究生\单片机\STM32\项目\水质检测\程序\BC28_水质_EC20\USER\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d --feedback "..\OBJ\USART.fed" "..\SYSTEM\usart\usart.c"
